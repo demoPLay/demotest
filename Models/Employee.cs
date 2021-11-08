@@ -11,8 +11,8 @@ namespace demotest.Models
         [Display(Name = "Mã hiệu công nhân")]
         public string EmployeeID { get; set; }
         [Display(Name = "tên công nhân")]
-        public decimal  EmployeeName { get; set; }
+        public string  EmployeeName { get; set; }
         [Display(Name = "số điện thoại")]
-        public decimal PhoneNumber { get; set; }
+        public string PhoneNumber { get; set; }
     }
 }
