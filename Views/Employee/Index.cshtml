@@ -7,8 +7,14 @@
 <h1>Index</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">thêm công nhân</a>
 </p>
+<form asp-controller="Employee" asp-action="Index">
+    <p>
+        Title: <input type="text" name="SearchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
 <table class="table">
     <thead>
         <tr>

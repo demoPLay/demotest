@@ -16,5 +16,7 @@ namespace demotest.Models
         public decimal UnitPrice { get; set; }
         [Display(Name = "số lượng")]
         public decimal Quantity { get; set; }
+        public string categoryID { get; set; }
+        public category category { get; set; }
     }
 }

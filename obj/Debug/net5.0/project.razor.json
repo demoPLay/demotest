@@ -15629,6 +15629,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\demoMVC\\demotest\\Views\\category\\Delete.cshtml",
+      "TargetPath": "Views\\category\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demoMVC\\demotest\\Views\\game\\Delete.cshtml",
+      "TargetPath": "Views\\game\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\demoMVC\\demotest\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -15654,6 +15664,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\demoMVC\\demotest\\Views\\game\\Index.cshtml",
+      "TargetPath": "Views\\game\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\demoMVC\\demotest\\Views\\student\\Edit.cshtml",
       "TargetPath": "Views\\student\\Edit.cshtml",
       "FileKind": "mvc"
@@ -15664,13 +15679,38 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\demoMVC\\demotest\\Views\\game\\Details.cshtml",
+      "TargetPath": "Views\\game\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demoMVC\\demotest\\Views\\categoryy\\Create.cshtml",
+      "TargetPath": "Views\\categoryy\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\demoMVC\\demotest\\Views\\student\\Create.cshtml",
       "TargetPath": "Views\\student\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\demoMVC\\demotest\\Views\\produtt\\Edit.cshtml",
+      "TargetPath": "Views\\produtt\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demoMVC\\demotest\\Views\\category\\Create.cshtml",
+      "TargetPath": "Views\\category\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\demoMVC\\demotest\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demoMVC\\demotest\\Views\\categoryy\\Details.cshtml",
+      "TargetPath": "Views\\categoryy\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15694,8 +15734,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\demoMVC\\demotest\\Views\\category\\Edit.cshtml",
+      "TargetPath": "Views\\category\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\demoMVC\\demotest\\Views\\preson\\Create.cshtml",
       "TargetPath": "Views\\preson\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demoMVC\\demotest\\Views\\category\\Index.cshtml",
+      "TargetPath": "Views\\category\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15724,6 +15774,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\demoMVC\\demotest\\Views\\produtt\\Details.cshtml",
+      "TargetPath": "Views\\produtt\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\demoMVC\\demotest\\Views\\Employee\\Details.cshtml",
       "TargetPath": "Views\\Employee\\Details.cshtml",
       "FileKind": "mvc"
@@ -15736,6 +15791,16 @@
     {
       "FilePath": "d:\\demoMVC\\demotest\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demoMVC\\demotest\\Views\\game\\Edit.cshtml",
+      "TargetPath": "Views\\game\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demoMVC\\demotest\\Views\\produtt\\Create.cshtml",
+      "TargetPath": "Views\\produtt\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15764,8 +15829,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\demoMVC\\demotest\\Views\\game\\Create.cshtml",
+      "TargetPath": "Views\\game\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demoMVC\\demotest\\Views\\categoryy\\Delete.cshtml",
+      "TargetPath": "Views\\categoryy\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\demoMVC\\demotest\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demoMVC\\demotest\\Views\\produtt\\Index.cshtml",
+      "TargetPath": "Views\\produtt\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15784,6 +15864,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\demoMVC\\demotest\\Views\\produtt\\Delete.cshtml",
+      "TargetPath": "Views\\produtt\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\demoMVC\\demotest\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -15794,13 +15879,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\demoMVC\\demotest\\Views\\categoryy\\Edit.cshtml",
+      "TargetPath": "Views\\categoryy\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\demoMVC\\demotest\\Views\\Product\\Create.cshtml",
       "TargetPath": "Views\\Product\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\demoMVC\\demotest\\Views\\categoryy\\Index.cshtml",
+      "TargetPath": "Views\\categoryy\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\demoMVC\\demotest\\Views\\Employee\\Delete.cshtml",
       "TargetPath": "Views\\Employee\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demoMVC\\demotest\\Views\\category\\Details.cshtml",
+      "TargetPath": "Views\\category\\Details.cshtml",
       "FileKind": "mvc"
     },
     {

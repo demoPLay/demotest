@@ -21,10 +21,10 @@ namespace demotest.Migrations
                     b.Property<string>("EmployeeID")
                         .HasColumnType("TEXT");
 
-                    b.Property<decimal>("EmployeeName")
+                    b.Property<string>("EmployeeName")
                         .HasColumnType("TEXT");
 
-                    b.Property<decimal>("PhoneNumber")
+                    b.Property<string>("PhoneNumber")
                         .HasColumnType("TEXT");
 
                     b.HasKey("EmployeeID");
@@ -46,9 +46,38 @@ namespace demotest.Migrations
                     b.Property<decimal>("UnitPrice")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("categoryID")
+                        .HasColumnType("TEXT");
+
                     b.HasKey("ProductID");
 
+                    b.HasIndex("categoryID");
+
                     b.ToTable("Product");
+                });
+
+            modelBuilder.Entity("demotest.Models.Productt", b =>
+                {
+                    b.Property<string>("ProducttID")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ProducttName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Quantity")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UnitPrice")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("categoryyID")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("ProducttID");
+
+                    b.HasIndex("categoryyID");
+
+                    b.ToTable("Productt");
                 });
 
             modelBuilder.Entity("demotest.Models.Student", b =>
@@ -67,17 +96,49 @@ namespace demotest.Migrations
                     b.ToTable("Student");
                 });
 
+            modelBuilder.Entity("demotest.Models.category", b =>
+                {
+                    b.Property<string>("categoryID")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("categoryName")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("categoryID");
+
+                    b.ToTable("categorys");
+                });
+
+            modelBuilder.Entity("demotest.Models.categoryy", b =>
+                {
+                    b.Property<string>("categoryyID")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("categoryyName")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("categoryyID");
+
+                    b.ToTable("categoryss");
+                });
+
             modelBuilder.Entity("demotest.Models.person", b =>
                 {
                     b.Property<string>("PersonID")
                         .HasColumnType("TEXT");
 
-                    b.Property<decimal>("PersonName")
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PersonName")
                         .HasColumnType("TEXT");
 
                     b.HasKey("PersonID");
 
                     b.ToTable("person");
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("person");
                 });
 
             modelBuilder.Entity("demotest.Models.preson", b =>
@@ -120,6 +181,49 @@ namespace demotest.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("test");
+                });
+
+            modelBuilder.Entity("demotest.Models.game", b =>
+                {
+                    b.HasBaseType("demotest.Models.person");
+
+                    b.Property<string>("gameID")
+                        .HasColumnType("TEXT");
+
+                    b.Property<decimal>("gameName")
+                        .HasColumnType("TEXT");
+
+                    b.ToTable("person");
+
+                    b.HasDiscriminator().HasValue("game");
+                });
+
+            modelBuilder.Entity("demotest.Models.Product", b =>
+                {
+                    b.HasOne("demotest.Models.category", "category")
+                        .WithMany("Products")
+                        .HasForeignKey("categoryID");
+
+                    b.Navigation("category");
+                });
+
+            modelBuilder.Entity("demotest.Models.Productt", b =>
+                {
+                    b.HasOne("demotest.Models.categoryy", "categoryy")
+                        .WithMany("Productts")
+                        .HasForeignKey("categoryyID");
+
+                    b.Navigation("categoryy");
+                });
+
+            modelBuilder.Entity("demotest.Models.category", b =>
+                {
+                    b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("demotest.Models.categoryy", b =>
+                {
+                    b.Navigation("Productts");
                 });
 #pragma warning restore 612, 618
         }

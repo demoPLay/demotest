@@ -27,5 +27,9 @@ namespace demotest.data
 
         public DbSet<demotest.Models.Product> Product { get; set; }
         public object Movie { get; internal set; }
+        public DbSet<demotest.Models.game> game { get; set; }
+        public DbSet<demotest.Models.category> category { get; set; }
+        public DbSet<demotest.Models.Productt> Productt { get; set; }
+        public DbSet<demotest.Models.categoryy> categoryy { get; set; }
     }
 }

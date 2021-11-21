@@ -13,6 +13,6 @@ namespace demotest.Models
         
         
         [Display(Name = "tên người làm")]
-        public decimal PersonName { get; set; }
+        public string PersonName { get; set; }
     }
 }
