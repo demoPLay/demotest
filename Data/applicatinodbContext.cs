@@ -31,5 +31,8 @@ namespace demotest.data
         public DbSet<demotest.Models.category> category { get; set; }
         public DbSet<demotest.Models.Productt> Productt { get; set; }
         public DbSet<demotest.Models.categoryy> categoryy { get; set; }
+        public DbSet<demotest.Models.demokt> demokt { get; set; }
+        public DbSet<demotest.Models.demokhoangoai> demokhoangoai { get; set; }
+        public DbSet<demotest.Models.teskhoatrong> teskhoatrong { get; set; }
     }
 }

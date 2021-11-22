@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using demotest.data;
 
 namespace demotest.Migrations
 {
     [DbContext(typeof(applicatinodbContext))]
-    partial class applicatinodbContextModelSnapshot : ModelSnapshot
+    [Migration("20211122011523_create_demokt")]
+    partial class create_demokt
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -128,30 +130,6 @@ namespace demotest.Migrations
                     b.ToTable("categoryss");
                 });
 
-            modelBuilder.Entity("demotest.Models.demokhoangoai", b =>
-                {
-                    b.Property<string>("demokhoangoaiID")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Quantity")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("UnitPrice")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("demokhoangoaiName")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("teskhoatrongID")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("demokhoangoaiID");
-
-                    b.HasIndex("teskhoatrongID");
-
-                    b.ToTable("demokhoangoai");
-                });
-
             modelBuilder.Entity("demotest.Models.person", b =>
                 {
                     b.Property<string>("PersonID")
@@ -188,19 +166,6 @@ namespace demotest.Migrations
                     b.HasKey("nameID");
 
                     b.ToTable("preson");
-                });
-
-            modelBuilder.Entity("demotest.Models.teskhoatrong", b =>
-                {
-                    b.Property<string>("teskhoatrongID")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("teskhoatrongName")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("teskhoatrongID");
-
-                    b.ToTable("teskhoatrong");
                 });
 
             modelBuilder.Entity("demotest.Models.test", b =>
@@ -274,15 +239,6 @@ namespace demotest.Migrations
                     b.Navigation("categoryy");
                 });
 
-            modelBuilder.Entity("demotest.Models.demokhoangoai", b =>
-                {
-                    b.HasOne("demotest.Models.teskhoatrong", "teskhoatrong")
-                        .WithMany("demokhoangoai")
-                        .HasForeignKey("teskhoatrongID");
-
-                    b.Navigation("teskhoatrong");
-                });
-
             modelBuilder.Entity("demotest.Models.category", b =>
                 {
                     b.Navigation("Products");
@@ -291,11 +247,6 @@ namespace demotest.Migrations
             modelBuilder.Entity("demotest.Models.categoryy", b =>
                 {
                     b.Navigation("Productts");
-                });
-
-            modelBuilder.Entity("demotest.Models.teskhoatrong", b =>
-                {
-                    b.Navigation("demokhoangoai");
                 });
 #pragma warning restore 612, 618
         }
