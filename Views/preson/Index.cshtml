@@ -1,4 +1,4 @@
-@model IEnumerable<demotest.Models.preson>
+@model demotest.Models.presonGenreViewModel
 
 @{
     ViewData["Title"] = "Index";
@@ -9,23 +9,33 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+<form asp-controller="preson" asp-action="Index" method="get">
+    <p>
+         <select asp-for="presonGenre" asp-items="Model.Genres">
+            <option value="">All</option>
+        </select>
+
+        Title: <input type="text" asp-for="SearchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.ReleaseDate)
+                @Html.DisplayNameFor(model => model.presons[0].ReleaseDate)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Genre)
+                @Html.DisplayNameFor(model => model.presons[0].Genre)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Price)
+                @Html.DisplayNameFor(model => model.presons[0].Price)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+@foreach (var item in Model.presons) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.ReleaseDate)

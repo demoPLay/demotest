@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\demoMVC\\demotest\\demotest.csproj",
+  "FilePath": "d:\\demo\\demotest\\demotest.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,298 +15619,373 @@
   "RootNamespace": "demotest",
   "Documents": [
     {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\test\\Create.cshtml",
-      "TargetPath": "Views\\test\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\Product\\Delete.cshtml",
-      "TargetPath": "Views\\Product\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\category\\Delete.cshtml",
-      "TargetPath": "Views\\category\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\game\\Delete.cshtml",
-      "TargetPath": "Views\\game\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\test\\Index.cshtml",
-      "TargetPath": "Views\\test\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\HelloWorld\\index.cshtml",
-      "TargetPath": "Views\\HelloWorld\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\Product\\Details.cshtml",
-      "TargetPath": "Views\\Product\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\student\\Details.cshtml",
-      "TargetPath": "Views\\student\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\game\\Index.cshtml",
-      "TargetPath": "Views\\game\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\student\\Edit.cshtml",
-      "TargetPath": "Views\\student\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\test\\Edit.cshtml",
-      "TargetPath": "Views\\test\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\game\\Details.cshtml",
-      "TargetPath": "Views\\game\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\categoryy\\Create.cshtml",
-      "TargetPath": "Views\\categoryy\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\student\\Create.cshtml",
-      "TargetPath": "Views\\student\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\produtt\\Edit.cshtml",
-      "TargetPath": "Views\\produtt\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\category\\Create.cshtml",
-      "TargetPath": "Views\\category\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\categoryy\\Details.cshtml",
+      "FilePath": "d:\\demo\\demotest\\Views\\categoryy\\Details.cshtml",
       "TargetPath": "Views\\categoryy\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\student\\Delete.cshtml",
-      "TargetPath": "Views\\student\\Delete.cshtml",
+      "FilePath": "d:\\demo\\demotest\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\person\\Create.cshtml",
-      "TargetPath": "Views\\person\\Create.cshtml",
+      "FilePath": "d:\\demo\\demotest\\Views\\teskhoatrong\\Create.cshtml",
+      "TargetPath": "Views\\teskhoatrong\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\preson\\Delete.cshtml",
-      "TargetPath": "Views\\preson\\Delete.cshtml",
+      "FilePath": "d:\\demo\\demotest\\Views\\student\\Edit.cshtml",
+      "TargetPath": "Views\\student\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\Employee\\Index.cshtml",
-      "TargetPath": "Views\\Employee\\Index.cshtml",
+      "FilePath": "d:\\demo\\demotest\\Views\\Product\\Delete.cshtml",
+      "TargetPath": "Views\\Product\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\category\\Edit.cshtml",
-      "TargetPath": "Views\\category\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\preson\\Create.cshtml",
-      "TargetPath": "Views\\preson\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\category\\Index.cshtml",
-      "TargetPath": "Views\\category\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\student\\Index.cshtml",
-      "TargetPath": "Views\\student\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\preson\\Edit.cshtml",
-      "TargetPath": "Views\\preson\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\preson\\Index.cshtml",
-      "TargetPath": "Views\\preson\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\produtt\\Details.cshtml",
-      "TargetPath": "Views\\produtt\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\Employee\\Details.cshtml",
-      "TargetPath": "Views\\Employee\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\Employee\\Create.cshtml",
-      "TargetPath": "Views\\Employee\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\Home\\Index.cshtml",
+      "FilePath": "d:\\demo\\demotest\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\game\\Edit.cshtml",
-      "TargetPath": "Views\\game\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\produtt\\Create.cshtml",
-      "TargetPath": "Views\\produtt\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\Product\\Index.cshtml",
-      "TargetPath": "Views\\Product\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\person\\Details.cshtml",
-      "TargetPath": "Views\\person\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\person\\Index.cshtml",
-      "TargetPath": "Views\\person\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\person\\Delete.cshtml",
-      "TargetPath": "Views\\person\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\HelloWorld\\Welcome.cshtml",
-      "TargetPath": "Views\\HelloWorld\\Welcome.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\game\\Create.cshtml",
-      "TargetPath": "Views\\game\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\categoryy\\Delete.cshtml",
-      "TargetPath": "Views\\categoryy\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\produtt\\Index.cshtml",
+      "FilePath": "d:\\demo\\demotest\\Views\\produtt\\Index.cshtml",
       "TargetPath": "Views\\produtt\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\Product\\Edit.cshtml",
-      "TargetPath": "Views\\Product\\Edit.cshtml",
+      "FilePath": "d:\\demo\\demotest\\Views\\category\\Edit.cshtml",
+      "TargetPath": "Views\\category\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\preson\\Details.cshtml",
-      "TargetPath": "Views\\preson\\Details.cshtml",
+      "FilePath": "d:\\demo\\demotest\\Views\\game\\Index.cshtml",
+      "TargetPath": "Views\\game\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\Employee\\Edit.cshtml",
-      "TargetPath": "Views\\Employee\\Edit.cshtml",
+      "FilePath": "d:\\demo\\demotest\\Views\\student\\Index.cshtml",
+      "TargetPath": "Views\\student\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\produtt\\Delete.cshtml",
-      "TargetPath": "Views\\produtt\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\person\\Edit.cshtml",
-      "TargetPath": "Views\\person\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\categoryy\\Edit.cshtml",
+      "FilePath": "d:\\demo\\demotest\\Views\\categoryy\\Edit.cshtml",
       "TargetPath": "Views\\categoryy\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\Product\\Create.cshtml",
-      "TargetPath": "Views\\Product\\Create.cshtml",
+      "FilePath": "d:\\demo\\demotest\\Views\\produtt\\Edit.cshtml",
+      "TargetPath": "Views\\produtt\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\categoryy\\Index.cshtml",
-      "TargetPath": "Views\\categoryy\\Index.cshtml",
+      "FilePath": "d:\\demo\\demotest\\Views\\test\\Index.cshtml",
+      "TargetPath": "Views\\test\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\Employee\\Delete.cshtml",
-      "TargetPath": "Views\\Employee\\Delete.cshtml",
+      "FilePath": "d:\\demo\\demotest\\Views\\demokhoangoai\\Edit.cshtml",
+      "TargetPath": "Views\\demokhoangoai\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\category\\Details.cshtml",
+      "FilePath": "d:\\demo\\demotest\\Views\\category\\Details.cshtml",
       "TargetPath": "Views\\category\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\test\\Details.cshtml",
+      "FilePath": "d:\\demo\\demotest\\Views\\student\\Details.cshtml",
+      "TargetPath": "Views\\student\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\Employee\\Index.cshtml",
+      "TargetPath": "Views\\Employee\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\person\\Details.cshtml",
+      "TargetPath": "Views\\person\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\person\\Index.cshtml",
+      "TargetPath": "Views\\person\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\produtt\\Create.cshtml",
+      "TargetPath": "Views\\produtt\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\produtt\\Details.cshtml",
+      "TargetPath": "Views\\produtt\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\demokt\\Edit.cshtml",
+      "TargetPath": "Views\\demokt\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\preson\\Index.cshtml",
+      "TargetPath": "Views\\preson\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\Product\\Edit.cshtml",
+      "TargetPath": "Views\\Product\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\Employee\\Create.cshtml",
+      "TargetPath": "Views\\Employee\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\teskhoatrong\\Edit.cshtml",
+      "TargetPath": "Views\\teskhoatrong\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\preson\\Create.cshtml",
+      "TargetPath": "Views\\preson\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\Employee\\Edit.cshtml",
+      "TargetPath": "Views\\Employee\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\teskhoatrong\\Details.cshtml",
+      "TargetPath": "Views\\teskhoatrong\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\demokhoangoai\\Index.cshtml",
+      "TargetPath": "Views\\demokhoangoai\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\game\\Delete.cshtml",
+      "TargetPath": "Views\\game\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\demokt\\Details.cshtml",
+      "TargetPath": "Views\\demokt\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\demokt\\Delete.cshtml",
+      "TargetPath": "Views\\demokt\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\teskhoatrong\\Delete.cshtml",
+      "TargetPath": "Views\\teskhoatrong\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\Employee\\Delete.cshtml",
+      "TargetPath": "Views\\Employee\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\preson\\Edit.cshtml",
+      "TargetPath": "Views\\preson\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\preson\\Details.cshtml",
+      "TargetPath": "Views\\preson\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\category\\Delete.cshtml",
+      "TargetPath": "Views\\category\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\person\\Create.cshtml",
+      "TargetPath": "Views\\person\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\categoryy\\Index.cshtml",
+      "TargetPath": "Views\\categoryy\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\demokhoangoai\\Create.cshtml",
+      "TargetPath": "Views\\demokhoangoai\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\test\\Edit.cshtml",
+      "TargetPath": "Views\\test\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\Product\\Details.cshtml",
+      "TargetPath": "Views\\Product\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\demokhoangoai\\Delete.cshtml",
+      "TargetPath": "Views\\demokhoangoai\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\demokhoangoai\\Details.cshtml",
+      "TargetPath": "Views\\demokhoangoai\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\student\\Create.cshtml",
+      "TargetPath": "Views\\student\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\game\\Details.cshtml",
+      "TargetPath": "Views\\game\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\categoryy\\Delete.cshtml",
+      "TargetPath": "Views\\categoryy\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\person\\Delete.cshtml",
+      "TargetPath": "Views\\person\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\produtt\\Delete.cshtml",
+      "TargetPath": "Views\\produtt\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\test\\Delete.cshtml",
+      "TargetPath": "Views\\test\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\student\\Delete.cshtml",
+      "TargetPath": "Views\\student\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\game\\Edit.cshtml",
+      "TargetPath": "Views\\game\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\category\\Create.cshtml",
+      "TargetPath": "Views\\category\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\Product\\Create.cshtml",
+      "TargetPath": "Views\\Product\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\HelloWorld\\Welcome.cshtml",
+      "TargetPath": "Views\\HelloWorld\\Welcome.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\demokt\\Create.cshtml",
+      "TargetPath": "Views\\demokt\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\person\\Edit.cshtml",
+      "TargetPath": "Views\\person\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\demokt\\Index.cshtml",
+      "TargetPath": "Views\\demokt\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\teskhoatrong\\Index.cshtml",
+      "TargetPath": "Views\\teskhoatrong\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\test\\Details.cshtml",
       "TargetPath": "Views\\test\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\demoMVC\\demotest\\Views\\test\\Delete.cshtml",
-      "TargetPath": "Views\\test\\Delete.cshtml",
+      "FilePath": "d:\\demo\\demotest\\Views\\preson\\Delete.cshtml",
+      "TargetPath": "Views\\preson\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\categoryy\\Create.cshtml",
+      "TargetPath": "Views\\categoryy\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\game\\Create.cshtml",
+      "TargetPath": "Views\\game\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\Product\\Index.cshtml",
+      "TargetPath": "Views\\Product\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\Employee\\Details.cshtml",
+      "TargetPath": "Views\\Employee\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\test\\Create.cshtml",
+      "TargetPath": "Views\\test\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\HelloWorld\\index.cshtml",
+      "TargetPath": "Views\\HelloWorld\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\demo\\demotest\\Views\\category\\Index.cshtml",
+      "TargetPath": "Views\\category\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

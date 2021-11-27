@@ -7439,11 +7439,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\demoMVC\\demotest\\demotest.csproj",
+      "projectUniqueName": "D:\\demo\\demotest\\demotest.csproj",
       "projectName": "demotest",
-      "projectPath": "D:\\demoMVC\\demotest\\demotest.csproj",
+      "projectPath": "D:\\demo\\demotest\\demotest.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\demoMVC\\demotest\\obj\\",
+      "outputPath": "D:\\demo\\demotest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

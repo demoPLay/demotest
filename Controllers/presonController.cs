@@ -20,10 +20,35 @@ namespace demotest.Controllers
         }
 
         // GET: preson
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString,string presonGenre)
         {
-            return View(await _context.preson.ToListAsync());
+            // Use LINQ to get list of genres.
+            IQueryable<string> genreQuery = from m in _context.preson
+                                            orderby m.Genre
+                                            select m.Genre;
+
+            var presons = from m in _context.preson
+                        select m;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                presons = presons.Where(s => s.nameID.Contains(searchString));
+            }
+
+            if (!string.IsNullOrEmpty(presonGenre))
+            {
+                presons = presons.Where(x => x.Genre == presonGenre);
+            }
+
+            var movieGenreVM = new presonGenreViewModel
+            {
+                Genres = new SelectList(await genreQuery.Distinct().ToListAsync()),
+                presons = await presons.ToListAsync()
+            };
+
+    return View(movieGenreVM);
         }
+
 
         // GET: preson/Details/5
         public async Task<IActionResult> Details(string id)
