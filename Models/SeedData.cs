@@ -15,6 +15,21 @@ namespace demotest.Models
                 serviceProvider.GetRequiredService<
                     DbContextOptions<applicatinodbContext>>()))
             {
+                if (context.preson.Any())
+                {
+                    return;   // DB has been seeded
+                }
+
+                context.preson.AddRange(
+                    new preson
+                    {
+                        nameID = "12a",
+                        ReleaseDate = DateTime.Parse("2002-8-9"),
+                        Genre = "hành lá",
+                        Rating = "R",
+                        Price = 7.99M
+                    }
+                );
                 // Look for any movies.
                 if (context.Employee.Any())
                 {

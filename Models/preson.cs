@@ -15,8 +15,18 @@ namespace demotest.Models
         [Display(Name = "Ngày phát hành")]
         public DateTime ReleaseDate { get; set; }
         [Display(Name = "thể loại")]
+        [RegularExpression(@"^[A-Z]+[a-zA-Z\s]*$")]
+        [Required]
+        [StringLength(30)]
         public string Genre { get; set; }
         [Display(Name = "giá bán")]
+        [Range(1, 100)]
+        [DataType(DataType.Currency)]
+        [Column(TypeName = "decimal(18, 2)")]
         public decimal Price { get; set; }
+        [RegularExpression(@"^[A-Z]*$")]
+        [StringLength(5)]
+        [Required]
+        public string Rating { get; set; }
     }
 }
